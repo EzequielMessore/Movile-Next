@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Game Info</string>
+    <string name="add_game">Add Game</string>
+    <string name="name">Name</string>
+    <string name="launch_year">Launch Year</string>
+    <string name="add">Add</string>
+    <string name="clear">Clear</string>
+    <string name="title_activity_game_info">GameInfoActivity</string>
+    <string name="game_information">Game Information</string>
+    <string name="game_image">Game Image</string>
+    <string name="classic">Classic</string>
+    <string name="game_name">Game Name</string>
+    <string name="image_url">Image URL</string>
+    <string name="rating">Rating</string>
+</resources>

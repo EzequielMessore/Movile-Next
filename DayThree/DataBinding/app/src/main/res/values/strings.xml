@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DataBinding</string>
+    <string name="label_classic">Classic</string>
+</resources>
