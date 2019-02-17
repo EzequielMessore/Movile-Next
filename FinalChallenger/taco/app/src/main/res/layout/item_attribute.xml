@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="attribute"
+            type="br.com.movilenext.taco.presentation.features.food.list.AttributeModel" />
+    </data>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        app:attrVisibility="@{attribute}"
+        app:cardBackground="@{attribute.color}"
+        app:cardCornerRadius="16dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="@{attribute.name}"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif-light"
+                app:layout_constraintBottom_toTopOf="@+id/tv_value_kj"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Colesterol"/>
+
+            <TextView
+                android:id="@+id/tv_value_kj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{attribute.data}"
+                android:textColor="@android:color/black"
+                app:fontFamily="sans-serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:text="4.16mg"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+</layout>

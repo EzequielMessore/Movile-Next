@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Table of Food Composition</string>
+    <string name="text_try_again">Try Again</string>
+    <string name="error_title">Ops! Something wrong is not right</string>
+    <string name="action_search">Search</string>
+    <string name="title_category">Categories</string>
+    <string name="title_food">Foods</string>
+    <string name="title_details_food">Detail Food</string>
+</resources>

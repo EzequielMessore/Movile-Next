@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "description": "Arroz, integral, cozido",
+  "base_qty": 100,
+  "base_unit": "g",
+  "category_id": 1,
+  "attributes": {
+    "cholesterol": {
+      "qty": "NA",
+      "unit": "mg"
+    },
+    "carbohydrate": {
+      "qty": 25.80975,
+      "unit": "g"
+    },
+    "iron": {
+      "qty": 0.262,
+      "unit": "mg"
+    },
+    "sodium": {
+      "qty": 1.24466666666667,
+      "unit": "mg"
+    },
+    "energy": {
+      "kcal": 123.5348925,
+      "kj": 516.86999022
+    }
+  }
+}

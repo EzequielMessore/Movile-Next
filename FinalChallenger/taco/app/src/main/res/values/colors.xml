@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="button_color">#24a5d3</color>
+    <color name="error_text_color">#8e8e93</color>
+    <color name="ripple_background">#33969696</color>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="view"
+            type="android.view.View"/>
+
+        <variable
+            name="food"
+            type="br.com.movilenext.taco.presentation.features.food.list.FoodModel"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{food.name}"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif"
+            app:layout_constraintBottom_toTopOf="@+id/energy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Arroz, integral, cozido"/>
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".5"/>
+
+        <include
+            android:id="@+id/energy"
+            layout="@layout/item_energy"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="8dp"
+            app:energy="@{food.attributes.energy}"
+            app:layout_constraintBottom_toTopOf="@id/guideline_middle"
+            app:layout_constraintEnd_toStartOf="@+id/carbohydrate"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <include
+            android:id="@+id/carbohydrate"
+            layout="@layout/item_attribute"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="8dp"
+            app:attribute="@{food.attributes.carbohydrate}"
+            app:layout_constraintBottom_toTopOf="@id/guideline_middle"
+            app:layout_constraintEnd_toStartOf="@+id/sodium"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/energy"/>
+
+        <include
+            android:id="@+id/sodium"
+            layout="@layout/item_attribute"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="8dp"
+            app:attribute="@{food.attributes.sodium}"
+            app:layout_constraintBottom_toTopOf="@id/guideline_middle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/carbohydrate"/>
+
+        <include
+            android:id="@+id/cholesterol"
+            layout="@layout/item_attribute"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="8dp"
+            app:attribute="@{food.attributes.cholesterol}"
+            app:layout_constraintEnd_toStartOf="@+id/iron"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/guideline_middle"/>
+
+        <include
+            android:id="@+id/iron"
+            layout="@layout/item_attribute"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="4dp"
+            app:attribute="@{food.attributes.iron}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cholesterol"
+            app:layout_constraintTop_toBottomOf="@+id/guideline_middle"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

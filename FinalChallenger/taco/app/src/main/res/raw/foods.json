@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "description": "Arroz, integral, cozido",
+    "base_qty": 100,
+    "base_unit": "g",
+    "category_id": 1,
+    "attributes": {
+      "cholesterol": {
+        "qty": "NA",
+        "unit": "mg"
+      },
+      "carbohydrate": {
+        "qty": 25.80975,
+        "unit": "g"
+      },
+      "iron": {
+        "qty": 0.262,
+        "unit": "mg"
+      },
+      "sodium": {
+        "qty": 1.24466666666667,
+        "unit": "mg"
+      },
+      "energy": {
+        "kcal": 123.5348925,
+        "kj": 516.86999022
+      }
+    }
+  },
+  {
+    "id": 2,
+    "description": "Arroz, integral, cru",
+    "base_qty": 100,
+    "base_unit": "g",
+    "category_id": 1,
+    "attributes": {
+      "cholesterol": {
+        "qty": "NA",
+        "unit": "mg"
+      },
+      "carbohydrate": {
+        "qty": 77.4507141304348,
+        "unit": "g"
+      },
+      "iron": {
+        "qty": 0.948333333333333,
+        "unit": "mg"
+      },
+      "sodium": {
+        "qty": 1.64566666666667,
+        "unit": "mg"
+      },
+      "energy": {
+        "kcal": 359.678002032609,
+        "kj": 1504.89276050444
+      }
+    }
+  },
+  {
+    "id": 3,
+    "description": "Arroz, tipo 1, cozido",
+    "base_qty": 100,
+    "base_unit": "g",
+    "category_id": 1,
+    "attributes": {
+      "cholesterol": {
+        "qty": "NA",
+        "unit": "mg"
+      },
+      "carbohydrate": {
+        "qty": 28.05985,
+        "unit": "g"
+      },
+      "iron": {
+        "qty": 0.076666666666667,
+        "unit": "mg"
+      },
+      "sodium": {
+        "qty": 1.20066666666667,
+        "unit": "mg"
+      },
+      "energy": {
+        "kcal": 128.258485666667,
+        "kj": 536.633504029333
+      }
+    }
+  },
+  {
+    "id": 4,
+    "description": "Arroz, tipo 1, cru",
+    "base_qty": 100,
+    "base_unit": "g",
+    "category_id": 1,
+    "attributes": {
+      "cholesterol": {
+        "qty": "NA",
+        "unit": "mg"
+      },
+      "carbohydrate": {
+        "qty": 78.7595434782609,
+        "unit": "g"
+      },
+      "iron": {
+        "qty": 0.6777475,
+        "unit": "mg"
+      },
+      "sodium": {
+        "qty": 1.01916666666667,
+        "unit": "mg"
+      },
+      "energy": {
+        "kcal": 357.789273115942,
+        "kj": 1496.9903187171
+      }
+    }
+  }
+]

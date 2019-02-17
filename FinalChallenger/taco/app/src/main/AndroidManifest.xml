@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="br.com.movilenext.taco"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".AndroidApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".presentation.features.category.CategoryActivity"
+            android:label="@string/title_category">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".presentation.features.food.list.FoodActivity"
+            android:label="@string/title_food"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".presentation.features.food.details.FoodDetailActivity"
+            android:label="@string/title_details_food"/>
+    </application>
+
+</manifest>

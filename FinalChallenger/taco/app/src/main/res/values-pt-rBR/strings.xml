@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tabela de composição de alimentos</string>
+    <string name="text_try_again">Tente novamente</string>
+    <string name="error_title">Ops! Algo de errado não esta certo</string>
+    <string name="action_search">Pesquisar</string>
+    <string name="title_category">Categorias</string>
+    <string name="title_food">Alimentos</string>
+    <string name="title_details_food">Detalhe alimento</string>
+</resources>
