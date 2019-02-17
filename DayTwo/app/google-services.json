@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "502158271428",
+    "firebase_url": "https://pushnotification-cbaf6.firebaseio.com",
+    "project_id": "pushnotification-cbaf6",
+    "storage_bucket": "pushnotification-cbaf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502158271428:android:898211bc433d69c6",
+        "android_client_info": {
+          "package_name": "br.com.movilenext.pushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502158271428-e2eqp599gj1jh90kjm1ll7h46bmnbdrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE2dfQYWoaCpBdUSwmhSxe0NbJXSQ8d7I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
